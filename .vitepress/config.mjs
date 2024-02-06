@@ -8,7 +8,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base:'/my-docs-website/',
+  base:'/haidocs/',
   // srcDir: "./docs", // 配置md文档的映射目录，默认根路径
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
   title: "AlbertZhang的文档网站",
