@@ -458,6 +458,14 @@ jobs:
 
 踩坑点：为啥下面的没有CSS样式呢？原因是因为没有.nojekyll这个文件，不然一些css会被忽略。添加一下再push就好了
 
+- 添加配置，之后就好了
+
+  ```java
+   base:'/自己的仓库名称/'
+  ```
+
+  
+
 ![image-20240108211022770](https://my-picture-bed1-1321100201.cos.ap-beijing.myqcloud.com/mypictures/image-20240108211022770.png)
 
 最后，就部署完毕了
