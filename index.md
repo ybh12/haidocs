@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "AlbertZhang的文档站"
-  text: "构建知识库"
+  name: "小海的文档站"
+  text: "捷丰知识库"
   tagline: 好记性不如烂笔头
   image:  
     src: /background.svg
     alt: 背景图
   actions:
     - theme: brand
-      text: 建站原因
+      text: 开始学习
       link: /docs/my-index/reason
 
 features:
