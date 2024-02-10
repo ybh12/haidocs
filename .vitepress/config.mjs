@@ -11,7 +11,7 @@ export default defineConfig({
   // base:'/haidocs/',
   // srcDir: "./docs", // 配置md文档的映射目录，默认根路径
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
-  title: "AlbertZhang的文档网站",
+  title: "小海的文档网站",
   description: "A bugDesigner Site",
   themeConfig: {
     outlineTitle: "文章目录",
