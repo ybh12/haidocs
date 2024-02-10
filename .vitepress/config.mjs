@@ -37,6 +37,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "数据库",
+        items: [{ text: "数据库知识碎片", link: "/docs/data-base/数据库" }],
+      },
+      {
         text: "Python",
         items: [
           { text: "基础语法", link: "/docs/python/base" },
