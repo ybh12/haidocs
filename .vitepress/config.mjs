@@ -56,16 +56,16 @@ export default defineConfig({
           { text: "漏洞复现", link: "/docs/net-sec/vul-reproduce" },
         ],
       },
-      {
-        text: "数学建模",
-        items: [
-          { text: "数据分析三剑客", link: "/docs/math-model/data-ana" },
-          { text: "评价类模型", link: "/docs/math-model/eval" },
-          { text: "预测类模型", link: "/docs/math-model/forecast" },
-          { text: "优化类模型", link: "/docs/math-model/optimize" },
-          { text: "分类模型", link: "/docs/math-model/classify" },
-        ],
-      },
+      // {
+      //   text: "数学建模",
+      //   items: [
+      //     { text: "数据分析三剑客", link: "/docs/math-model/data-ana" },
+      //     { text: "评价类模型", link: "/docs/math-model/eval" },
+      //     { text: "预测类模型", link: "/docs/math-model/forecast" },
+      //     { text: "优化类模型", link: "/docs/math-model/optimize" },
+      //     { text: "分类模型", link: "/docs/math-model/classify" },
+      //   ],
+      // },
       {
         text: "爬虫案例",
         items: [
