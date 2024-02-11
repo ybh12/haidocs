@@ -88,6 +88,8 @@ export default defineConfig({
           { text: "Docker", link: "/docs/tools/docker" },
           { text: "iTime软件使用说明书", link: "/docs/tools/iTime_docs" },
           { text: "常用图标", link: "/docs/tools/icons" },
+          { text: "每日计划", link: "/docs/tools/plan" },
+          { text: "每日复盘", link: "/docs/tools/review" },
         ],
       },
     ],
