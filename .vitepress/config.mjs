@@ -32,6 +32,7 @@ export default defineConfig({
             text: "SpringBoot集成各种技术",
             link: "/docs/back-end/integrate-tech",
           },
+          { text: "Redis实战", link: "/docs/back-end/Redis实战篇" },
           { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
           { text: "ElasticSearch", link: "/docs/back-end/elasticsearch" },
         ],
