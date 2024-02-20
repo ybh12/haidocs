@@ -87,6 +87,7 @@ export default defineConfig({
         text: "其他",
         items: [
           { text: "Git", link: "/docs/tools/git" },
+          { text: "Figma", link: "/docs/tools/Figma" },
           { text: "Docker", link: "/docs/tools/docker" },
           { text: "iTime软件使用说明书", link: "/docs/tools/iTime_docs" },
           { text: "常用图标", link: "/docs/tools/icons" },
@@ -125,7 +126,7 @@ export default defineConfig({
     ],
     // 底部配置
     footer: {
-      copyright: "Copyright@ 2023 Albert Zhang",
+      copyright: "Copyright@ 2023 xiao_hai",
     },
     // 设置搜索框的样式
     search: {
