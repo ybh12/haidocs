@@ -61,7 +61,7 @@ unicode字符集为我们内置了许多图标，可以访问官网看所有的�
 
 ## 颜文字
 
-[哭泣：(｡•́︿•̀｡)](http://localhost:5173/docs/tools/xiaohai.html)
+[哭泣：(｡•́︿•̀｡)](https://webdocs.hycode.top/docs/tools/xiaohai.html)
 
 微笑：\^_^     (˃ᴗ˂)		٩(◕‿◕｡)۶
 
