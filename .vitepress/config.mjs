@@ -29,13 +29,15 @@ export default defineConfig({
         text: "后端",
         items: [
           {
-            text: "SpringBoot集成各种技术",
-            link: "/docs/back-end/integrate-tech",
+            text: "SpringBoot",
+            link: "/docs/back-end/SpringBoot",
           },
           { text: "用户中心", link: "/docs/back-end/用户中心" },
           { text: "Redis实战", link: "/docs/back-end/Redis实战篇" },
           { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
           { text: "ElasticSearch", link: "/docs/back-end/elasticsearch" },
+          { text: "RPC框架项目", link: "/docs/back-end/RPC框架" },
+
         ],
       },
       {
@@ -89,10 +91,13 @@ export default defineConfig({
           { text: "Git", link: "/docs/tools/git" },
           { text: "Figma", link: "/docs/tools/Figma" },
           { text: "Docker", link: "/docs/tools/docker" },
-          { text: "iTime软件使用说明书", link: "/docs/tools/iTime_docs" },
           { text: "常用图标", link: "/docs/tools/icons" },
-          { text: "每日计划", link: "/docs/tools/plan" },
           { text: "每日复盘", link: "/docs/tools/review" },
+          { text: "Maven配置idea", link: "/docs/tools/Maven" },
+          { text: "java项目开发流程", link: "/docs/tools/项目开发流程" },
+
+
+
         ],
       },
     ],
