@@ -37,6 +37,8 @@ export default defineConfig({
           { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
           { text: "ElasticSearch", link: "/docs/back-end/elasticsearch" },
           { text: "RPC框架项目", link: "/docs/back-end/RPC框架" },
+          { text: "后端知识碎片", link: "/docs/back-end/后端知识碎片" },
+
 
         ],
       },
