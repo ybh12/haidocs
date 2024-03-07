@@ -32,12 +32,15 @@ export default defineConfig({
             text: "SpringBoot",
             link: "/docs/back-end/SpringBoot",
           },
+          { text: "SpringSecurity", link: "/docs/back-end/SpringSecurity" },
+
           { text: "用户中心", link: "/docs/back-end/用户中心" },
           { text: "Redis实战", link: "/docs/back-end/Redis实战篇" },
           { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
           { text: "ElasticSearch", link: "/docs/back-end/elasticsearch" },
           { text: "RPC框架项目", link: "/docs/back-end/RPC框架" },
           { text: "后端知识碎片", link: "/docs/back-end/后端知识碎片" },
+
 
 
         ],
@@ -95,7 +98,7 @@ export default defineConfig({
           { text: "Docker", link: "/docs/tools/docker" },
           { text: "常用图标", link: "/docs/tools/icons" },
           { text: "每日复盘", link: "/docs/tools/review" },
-          { text: "Maven配置idea", link: "/docs/tools/Maven" },
+          { text: "Maven", link: "/docs/tools/Maven" },
           { text: "java项目开发流程", link: "/docs/tools/项目开发流程" },
 
 

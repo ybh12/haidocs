@@ -783,6 +783,12 @@ create table tb_user(
 @Resource----------->指定我们需要的bean,**在类中使用@Resource（name = “ userservice ”）**
 
 
+
+
+
+
+
+
 ## Spring注解大全
 
 
@@ -795,10 +801,19 @@ create table tb_user(
 @RequestMapping("/simplePojo")   
 
 //@RequestParam 实现映射，请求参数绑定在控制器的方法参数上
-@RequestParam( name= "name")
+@RequestParam( name= "name
+              
+//设置请求中是否必须包含此参数，否则抛异常，ture允许为空，false不允许为空
+@RequestParam(required = false)
 
 //@RequestParam 将多个请求参数的值封装到list集合
 public String listParam(@RequestParam List<String> hobby){
+
+    
+    
+//通过使用 @ApiIgnore 注解，你可以隐藏该参数      
+@ApiIgnore MultipartHttpServletRequest request  
+  
     
 //@DateTimeFormat注解完成日期参数格式转换
 public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalDateTime updateTime){
@@ -816,6 +831,11 @@ public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalD
     
 //ResponseBody  使用在controller方法或者类上 -> 将方法的返回值直接响应给客户端,如果是对象或者集合，会先转化为json格式响应
   @Restcontroller=@controller+@responseBody
+
+      
+
+//注解的类可以读取配置文件中以 aliyun.oss 开头的属性值，并将这些属性值自动绑定到类的对应字段上
+ @ConfigurationProperties(prefix = "aliyun.oss") 
       
       
 //将类放入ioc容器
@@ -839,14 +859,82 @@ public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalD
 
 //具有包扫描功能，默认扫描当前包及其子包
 @SpringBootApplication
+
+      
+//用于检验加在字段上面的注解符合要求
+@valid
+      
+1.字段中使用到的注解有以下：
+
+@Null
+
+限制只能为null
+
+@NotNull
+
+限制必须不为null
+
+@AssertFalse
+
+限制必须为false
+
+@AssertTrue
+
+限制必须为true
+
+@DecimalMax(value)
+
+限制必须为一个不大于指定值的数字
+
+@DecimalMin(value)
+
+限制必须为一个不小于指定值的数字
+
+@Digits(integer,fraction)
+
+限制必须为一个小数，且整数部分的位数不能超过integer，小数部分的位数不能超过fraction
+
+@Future
+
+限制必须是一个将来的日期
+
+@Max(value)
+
+限制必须为一个不大于指定值的数字
+
+@Min(value)
+
+限制必须为一个不小于指定值的数字
+
+@Past
+
+限制必须是一个过去的日期
+
+@Pattern(value)
+
+限制必须符合指定的正则表达式
+
+@Size(max,min)
+
+限制字符长度必须在min到max之间
+
+@Past
+
+验证注解的元素值（日期类型）比当前时间早
+
+@NotEmpty
+
+验证注解的元素值不为null且不为空（字符串长度不为0、集合大小不为0）
+
+@NotBlank
+
+验证注解的元素值不为空（不为null、去除首位空格后长度为0），不同于@NotEmpty，@NotBlank只应用于字符串且在比较时会去除字符串的空格
+
+@Email
+
+验证注解的元素值是Email，也可以通过正则表达式和flag指定自定义的email格式
+
 ```
-
-
-
-
-
-
-
 
 
 
