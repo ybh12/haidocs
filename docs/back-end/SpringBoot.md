@@ -835,7 +835,7 @@ public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalD
       
 
 //注解的类可以读取配置文件中以 aliyun.oss 开头的属性值，并将这些属性值自动绑定到类的对应字段上
- @ConfigurationProperties(prefix = "aliyun.oss") 
+@ConfigurationProperties(prefix = "aliyun.oss") 
       
       
 //将类放入ioc容器
