@@ -832,7 +832,19 @@ public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalD
 //ResponseBody  使用在controller方法或者类上 -> 将方法的返回值直接响应给客户端,如果是对象或者集合，会先转化为json格式响应
   @Restcontroller=@controller+@responseBody
 
+
+//这是一个Lombok注解，自动生成getter、setter、toString等方法      
+ @Data
       
+ //该注解指定了数据库表名为"li_setting"，用于与数据库进行映射。     
+@TableName("li_setting")
+  
+ //这是一个Swagger注解，用于定义数据模型的说明和描述。
+@ApiModel(value = "配置")
+
+//这是一个Lombok注解,自动生成无参构造函数
+@NoArgsConstructor
+
 
 //注解的类可以读取配置文件中以 aliyun.oss 开头的属性值，并将这些属性值自动绑定到类的对应字段上
 @ConfigurationProperties(prefix = "aliyun.oss") 
