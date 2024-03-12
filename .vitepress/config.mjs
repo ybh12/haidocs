@@ -15,7 +15,7 @@ export default defineConfig({
   description: "A bugDesigner Site",
   themeConfig: {
     outlineTitle: "文章目录",
-    outline: [2, 6],
+    outline: [1, 6],
     // outline: "deep",
     // https://vitepress.dev/reference/default-theme-config
     logo: "logo.svg", // 配置logo位置，public目录
