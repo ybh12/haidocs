@@ -845,6 +845,15 @@ public String dateParam(@DateTimeFormat(pattern  = "yyyy-MM-dd HH:mm:ss") LocalD
 //这是一个Lombok注解,自动生成无参构造函数
 @NoArgsConstructor
 
+@Accessors(chain = true)注解启用了链式调用。
+
+//使用链式调用的优点是可以在一个语句中多次调用setter方法，提高代码的可读性和简洁性。例如：
+
+
+Setting setting = new Setting()
+    .setSettingValue("value1")
+    .setOtherProperty("otherValue");
+     
 
 //注解的类可以读取配置文件中以 aliyun.oss 开头的属性值，并将这些属性值自动绑定到类的对应字段上
 @ConfigurationProperties(prefix = "aliyun.oss") 
