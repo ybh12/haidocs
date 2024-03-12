@@ -107,9 +107,9 @@ export default defineConfig({
       },
     ],
     // 侧边栏配置，这个函数自动生成侧边栏
-    // sidebar: { "/front-end/react": set_sidebar("front-end/react") },
+    sidebar: { "/front-end/react": set_sidebar("front-end/react") },
     navbar: true, //开启导航栏，我设置成false也没啥用不知道为啥
-    sidebar: false, // 关闭侧边栏
+    sidebar: true, // 关闭侧边栏
     lastUpdated: true, // 显示上次修改时间
     aside: "left", // 设置右侧侧边栏在左侧显示
     // 社交链接，内置的都是国外的，国内只能通过svg设置
