@@ -78,20 +78,37 @@ java8特性 **Stream流的使用**
 
 ## 下午:night_with_stars:
 
+睡觉
+
 ---
+
+
+
+
+
+
+
+
+
+
 
 # :date:2024.3-24
 
 ## 早上:mortar_board:
 
-----
+睡觉
+
+### 
+
+## 下午:night_with_stars:
 
 ### 已解决:chart_with_upwards_trend:
 
-- 
+- 整理学习java8的特性框架
+- 学习了java的转义字符
+- 学习了java的数据类型
+- 学写了数据类型的自动转换
+- 学会了使用dos命令中的tree的使用
+- 学会了相对路径哥绝对路径的区别
 
 ### 待解决问题
-
-
-
-## 下午:night_with_stars:
