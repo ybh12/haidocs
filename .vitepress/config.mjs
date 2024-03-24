@@ -33,7 +33,7 @@ export default defineConfig({
             link: "/docs/back-end/SpringBoot",
           },
           { text: "SpringSecurity", link: "/docs/back-end/SpringSecurity" },
-
+          { text: "JAVA", link: "docs/back-end/java.md"},
           { text: "用户中心", link: "/docs/back-end/用户中心" },
           { text: "Redis实战", link: "/docs/back-end/Redis实战篇" },
           { text: "RabbitMQ", link: "/docs/back-end/rabbitmq" },
