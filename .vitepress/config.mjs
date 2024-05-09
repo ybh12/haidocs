@@ -100,7 +100,7 @@ export default defineConfig({
           { text: "每日复盘", link: "/docs/tools/review" },
           { text: "Maven", link: "/docs/tools/Maven" },
           { text: "java项目开发流程", link: "/docs/tools/项目开发流程" },
-
+          { text: "电脑软件", link: "/docs/tools/windows/电脑软件" },
 
 
         ],
