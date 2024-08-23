@@ -105,6 +105,21 @@ export default defineConfig({
 
         ],
       },
+      {
+        text: "Java",
+        items: [
+          { text: "Git", link: "/docs/tools/git" },
+          { text: "Figma", link: "/docs/tools/Figma" },
+          { text: "Docker", link: "/docs/tools/docker" },
+          { text: "常用图标", link: "/docs/tools/icons" },
+          { text: "每日复盘", link: "/docs/tools/review" },
+          { text: "Maven", link: "/docs/tools/Maven" },
+          { text: "java项目开发流程", link: "/docs/tools/项目开发流程" },
+          { text: "电脑软件", link: "/docs/tools/windows/电脑软件" },
+
+
+        ],
+      },
     ],
     // 侧边栏配置，这个函数自动生成侧边栏
     // sidebar: { "/front-end/react": set_sidebar("front-end/react") },
